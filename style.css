@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: 'fantasy',sans-serif;
+    box-sizing: border-box;}
+body{
+    background-color: #d9dcd6;  
+}
+
+.hero{
+    height: 1000px;
+    width: 100%;
+    background-image: url(../pexels-lumn-399161.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+.header{
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff
+}
+.header nav{
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+}
+.logo{
+    color: rgb(7, 53, 39);
+    font-size: 40px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+.hero h1{
+    align-items: center;
+}
+span{
+    color: rgb(81, 27, 102);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a{
+    list-style-type:none;
+    display: inline-block;
+    padding: 10px 30px;
+}
+nav ul li a:hover{
+    color: teal;
+    transition: .4s;
+}
+.about h2{
+    position: relative;
+    align-items: center;
+    background-color: cadetblue; 
+    text-align: center; 
+}
+.about p{
+    align-content: center;
+    display:flow-root;
+    justify-content: right;
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skills h2{
+    position: relative;
+    align-items: center;
+    background-color: cadetblue; 
+    text-align: center
+}
+.contact h2{
+    position: relative;
+    align-items: center;
+    background-color: cadetblue; 
+    text-align: center
+}
+h2{
+    position: relative;
+    align-items: center;
+    background-color: cadetblue;
+    text-align: center
+}.icons{
+    display: grid;
+    position: relative;
+}
+.a{
+display: block;
+height: 70px;
+width: 100%;
+}
